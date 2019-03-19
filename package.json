@@ -9,8 +9,10 @@
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-typography": "^2.2.10",
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.0.7",
+    "gatsby-remark-highlights": "^1.3.4",
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-relative-images": "^0.2.1",
     "gatsby-source-filesystem": "^2.0.1",
@@ -21,9 +23,12 @@
     "react-helmet": "^5.2.0",
     "react-swipeable": "^4.3.0",
     "react-transition-group": "^2.4.0",
+    "react-typography": "^0.16.19",
     "remark": "^9.0.0",
     "remark-html": "^8.0.0",
-    "remark-preset-lint-recommended": "^3.0.2"
+    "remark-preset-lint-recommended": "^3.0.2",
+    "typography": "^0.16.19",
+    "typography-theme-st-annes": "^0.16.19"
   },
   "keywords": [
     "gatsby",

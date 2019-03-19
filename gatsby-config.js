@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
-    date: `July 30, 2018`,
+    name: `Shane Thomas`,
+    title: `Gatsby and Drupal Sitting in a Tree`,
+    url: `http://github.com/smthomas/gatsby-drupal-presentation`,
+    twitter: 'smthomas3'
   },
   plugins: [
     `gatsby-plugin-layout`,
@@ -13,6 +14,12 @@ module.exports = {
       options: {
         name: `slides`,
         path: `${__dirname}/src/slides`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
       },
     },
     {
@@ -27,6 +34,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1920,
+              quality: 90,
+              linkImagesToOriginal: false,
             },
           },
         ],

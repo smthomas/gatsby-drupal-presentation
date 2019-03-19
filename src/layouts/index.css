@@ -4,6 +4,7 @@
   --accent: #3178cd;
   --text: black;
   --base: 1.5rem;
+  --red: #fb251b;
 }
 
 @media (max-width: 600px) {
@@ -18,11 +19,11 @@
 
 body,
 html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; */
   font-size: var(--base);
-  -webkit-font-smoothing: antialiased;
-  font-feature-settings: 'calt', 'liga', 'hist', 'onum', 'pnum';
+  /*-webkit-font-smoothing: antialiased;
+  font-feature-settings: 'calt', 'liga', 'hist', 'onum', 'pnum';*/
 
   overflow: auto;
 
@@ -31,8 +32,7 @@ html {
   margin: 0;
   padding: 0;
 
-  color: var(--text);
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
 }
 
 #slide {
@@ -50,24 +50,33 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
-#slide ul {
+#slide ul,
+#slide ol {
     text-align: left;
     margin-left: 32px;
 }
 
+.image-slide {
+  display: flex;
+}
+.image-slide p:first-child {
+  width: 50%;
+}
+.image-slide ul {
+  width: 50%;
+  padding-top: 2rem;
+}
+/*
 a {
   color: var(--text);
 
   text-decoration-skip-ink: auto;
 }
-
+*/
 blockquote {
-  font-size: 120%;
-  font-weight: bold;
-
-  width: 50vw;
-
-  text-align: left;
+  width: 60vw;
+  margin: 0 auto;
+  border-color: var(--red);
 }
 
 @media (max-width: 900px) {
@@ -76,14 +85,14 @@ blockquote {
   }
 }
 
-blockquote div::before {
+/* blockquote div::before {
   content: '\201C';
 }
 
 blockquote div::after {
   content: '\201D';
-}
-
+} */
+/*
 cite {
   font-size: 80%;
   font-weight: normal;
@@ -118,17 +127,19 @@ code {
 
 a:hover {
   color: var(--accent);
-}
+}*/
 
 h1 {
   font-size: 200%;
 
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 120%;
 
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -138,7 +149,7 @@ p {
 }
 
 header {
-  font-size: 50%;
+  font-size: 65%;
 
   position: fixed;
   top: 0;
@@ -146,7 +157,7 @@ header {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   width: 100%;
   padding: 20px;
@@ -154,8 +165,7 @@ header {
   user-select: none;
 }
 
-header a,
-time {
+header a {
   text-decoration: none;
 
   color: var(--meta);
@@ -165,6 +175,26 @@ header a:hover {
   color: var(--meta);
 }
 
-header span {
-  color: var(--text);
+header img {
+  float: left;
+  margin: 0 1rem 0 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 100vw;
+}
+footer img {
+  float: left;
+  margin: 10px 0 0 0;
+}
+footer a {
+  color: var(--meta);
+}
+footer span {
+  padding: 0 5px;
 }

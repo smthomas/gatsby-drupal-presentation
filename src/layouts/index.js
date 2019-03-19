@@ -4,16 +4,28 @@ import { Link, navigate, StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
+import logo from "./cklogo.png";
+import twitterLogo from './twitter.png';
 
 import './index.css';
 
-const Header = ({ name, title, date }) => (
+const Header = ({ name, title, url }) => (
   <header>
-    <Link to="/1">
-      <span>{name}</span> — {title}
+    <Link className="alt-link" to="/1">
+      <img src={logo} alt="Logo" />
+      <span>{title}</span>
     </Link>
-    <time>{date}</time>
+    <a target="_blank" href={url}>{url}</a>
   </header>
+);
+
+const Gutter = ({ twitter }) => (
+  <footer>
+    <a href={ 'http://twitter.com/' + twitter}>
+      <img src={twitterLogo} alt="Twitter Logo" />
+      <span>@{twitter}</span>
+    </a>
+  </footer>
 );
 
 class TemplateWrapper extends Component {
@@ -64,16 +76,20 @@ class TemplateWrapper extends Component {
         <Header
           name={site.siteMetadata.name}
           title={site.siteMetadata.title}
-          date={site.siteMetadata.date}
+          url={site.siteMetadata.url}
         />
         <Swipeable
           onSwipedLeft={this.swipeLeft}
           onSwipedRight={this.swipeRight}
+          onClick={this.swipeLeft}
         >
           <Transition location={location}>
             <div id="slide" style={{'width': '100%'}}>{children}</div>
           </Transition>
         </Swipeable>
+        <Gutter
+          twitter={site.siteMetadata.twitter}
+        />
       </div>
     );
   }
@@ -92,7 +108,8 @@ export default props => (
           siteMetadata {
             name
             title
-            date
+            url
+            twitter
           }
         }
         allSlide {
