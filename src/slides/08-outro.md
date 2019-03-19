@@ -4,7 +4,7 @@
 
 # Gatsby and Drupal can be a powerful combination
 
-![Third and Grove Logo](./01-titleslide.png)
+![Gatsby and Drupal](./01-titleslide.jpg)
 
 ___
 

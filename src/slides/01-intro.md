@@ -14,7 +14,7 @@ Shane Thomas
 
 - An Entrepreneurial Web Developer
 - Drupal and I go way back
-- Like to keep my pulse on the new hotness
+- Like to keep my pulse on the new trends
 
 </div>
 

@@ -1,20 +1,27 @@
 ## There are some gotchas though
 
-[Funny image]
+[Add funny image here]
+
 ___
 
 # Images/Videos with Drupal Media
 
-Be default you need to look in *relationships {}* in your graphql query.
+<div class="image-slide">
 
-[Screenshot]
+![Inline Images](./04-teaser.png)
+
+- By default you need to look in *relationships {}* in your graphql query.
+
+</div>
+
 ___
 
 # Inline Images
 
 You have to go through extra steps to get images that are entered through the WYSIWYG editor.
 
-[Image]
+![Inline Images](./05-inline-images2.png)
+
 ___
 
 # Embedded video
@@ -33,17 +40,17 @@ ___
 
 # Hosting is... different
 
-[Funny Image]
-
 ___
 
 # Deploying a Gatsby site
+
+Step 1:
 
 ```
 gastby build
 ```
 
-Upload static files to hosting provider
+Step 2: Upload static files to hosting provider
 
 Overall, it's pretty simple
 
@@ -51,8 +58,9 @@ ___
 
 # Hosting is...
 
-- Cheaper
-- More secure
+Cheaper
+
+More secure
 
 ___
 
@@ -70,15 +78,11 @@ ___
 
 # Pantheon
 
-[Pantheon Logo]
-
 Free development environment (which means you could host your Drupal backend for free)
 
 ___
 
 # Netlify, Github Pages, Cloudfront, etc
-
-[Logos]
 
 ___
 
@@ -96,9 +100,11 @@ ___
 
 # Special Considerations
 
-- Multiple content editors
-- CDN concerns
-- Posts that need to go live at a specific time
+Multiple content editors
+
+CDN concerns
+
+Posts that need to go live at a specific time
 
 ___
 

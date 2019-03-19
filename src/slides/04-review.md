@@ -10,24 +10,39 @@ ___
 
 # Content Types
 
+<div class="image-slide">
+
+![Drupal Content Types](./04-content-types.png)
+
 - Drupal uses Content Types that allow you to store data.
 - These could be things like Blog Posts, Articles, Pages, or any type of "content" you want on your site.
+
+</div>
 
 ___
 
 # Fields
 
+<div class="image-slide">
+
+![Drupal Fields](./04-fields.png)
+
 - You can add fields to these content types
 - Fields could be any type of information related to that content
 - Examples are images, text, dates, taxonomy terms/categories
+
+</div>
 
 ___
 
 # Expose the Data
 
-We expose the data by turning on the *JSON:API* module
+<div class="image-slide">
 
-<cite>that's it</cite>
+![Drupal Fields](./04-jsonapi.png)
+
+- We expose the data by turning on the *JSON:API* module
+- <cite>that's it</cite>
 
 ___
 
@@ -51,20 +66,9 @@ npm install --save gatsby-source-drupal
 
 ___
 
+## In gatsby-config.js
 
-```
-// In your gatsby-config.js
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-source-drupal`,
-      options: {
-        baseUrl: `https://drupal-local.lndo.site/`,
-      },
-    },
-  ],
-}
-```
+![Gatsby Config](./04-gatsby-config1.png)
 
 ___
 
@@ -74,25 +78,17 @@ It allows us to pull in data using something that looks like...
 
 ___
 
-```
-{
-  allArticle {
-    edges {
-      node {
-        title
-        internalId
-        created(formatString: "DD-MMM-YYYY")
-      }
-    }
-  }
-}
-```
+![GraphQL Example](./04-teaser.png)
 
 ___
 
 ## Gatsby creates all of the pages in gatsby-node.js
 
-Using the CreatePages process (@todo look for code example)
+![GraphQL Example](./04-create.png)
+
+___
+
+![GraphQL Example](./04-create2.png)
 
 ___
 
@@ -104,9 +100,10 @@ as well a how to display that data
 
 ___
 
+![GraphQL Example](./04-articletemplate.png)
+
+___
+
 ## In the end, it's all React components
 
 This means you can do anything that you normally could do with React.
-
-
-

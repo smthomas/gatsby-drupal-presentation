@@ -119,12 +119,15 @@ pre {
 
   color: var(--accent);
 }
-
+*/
 code {
   font-family: menlo, monospace;
-  font-size: 90%;
+  font-size: 1rem;
+  background-color: #2f4f4f;
+  padding: 20px;
+  color: white;
 }
-
+/*
 a:hover {
   color: var(--accent);
 }*/
