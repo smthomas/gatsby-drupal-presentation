@@ -195,5 +195,26 @@ Most of these caching layers are trying to make the sites as static is possible 
 Therefore, all your really trying to do is make your CMS perform like a Static site.
 ___
 
-<cite>Side Note: I don't know if CMSs is a word, but it works for me</cite>
+# Styling in Gatsby
 
+Styling is flexible
+
+There are three general approaches to styling
+
+___
+
+## Global CSS Files
+
+<cite>the traditional way to style a website. CSS rules are declared globally and styles are applied depending on specificity and inheritance.</cite>
+
+___
+
+## Modular Stylesheets
+
+<cite>CSS rules are written traditionally but consumed with JavaScript and scoped locally to avoid unintended side-effects elsewhere. Works out-of-the-box with Gatsby.</cite>
+
+___
+
+## CSS-in-JS
+
+<cite>locally-scoped CSS written and consumed in JavaScript, enabling the easier use of dynamic styling and other features. Requires the use of third-party libraries.</cite>

@@ -44,11 +44,8 @@ ___
 
 ## Introducing Gatsby Drupal Live Preview
 
-Time for another demo, but this one is pretty!
+Time for another demo!
 
-___
-
-Note: I can't take any of the design credit
 ___
 
 ## What you need to test it out
