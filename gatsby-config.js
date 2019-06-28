@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     name: `Shane Thomas`,
     title: `Gatsby and Drupal Sitting in a Tree`,
-    url: `http://github.com/smthomas/gatsby-drupal-presentation`,
+    url: `https://d4d.codekarate.com`,
     twitter: 'smthomas3'
   },
   plugins: [

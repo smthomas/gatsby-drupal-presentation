@@ -20,24 +20,6 @@ Shane Thomas
 
 ___
 
-# I do a lot of things
-
-___
-
-## Code Karate
-
-<div class="image-slide">
-
-![CodeKarate Logo](./01-cklogo4.png)
-
-- I teach people about Drupal
-- 200+ videos with over 2 Million views
-- <a href="http://codekarate.com">CodeKarate.com</a>
-
-</div>
-
-___
-
 ## Third & Grove
 
 <div class="image-slide">
@@ -53,15 +35,14 @@ ___
 
 ___
 
-## Learn Create Build Academy
+## Code Karate
 
 <div class="image-slide">
 
-![Learn Create Build Academy Logo](./01-lcblogo.png)
+![CodeKarate Logo](./01-cklogo4.png)
 
-- Co-founder
-- We inspire and educate the next generation of innovators
-- We teach kids 7 to 14 years-old STEM skills through live online classes.
-- <a href="http://learncreatebuild.com">LearnCreateBuild.com</a>
+- I teach people about Drupal
+- 200+ videos with over 2 Million views
+- <a href="http://codekarate.com">CodeKarate.com</a>
 
 </div>

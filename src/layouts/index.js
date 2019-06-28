@@ -4,7 +4,7 @@ import { Link, navigate, StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
-import logo from "./cklogo.png";
+import logo from "./icon-only.png";
 import twitterLogo from './twitter.png';
 
 import './index.css';
@@ -12,7 +12,7 @@ import './index.css';
 const Header = ({ name, title, url }) => (
   <header>
     <Link className="alt-link" to="/1">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" width="40" />
       <span>{title}</span>
     </Link>
     <a target="_blank" href={url}>{url}</a>

@@ -96,11 +96,7 @@ ___
 
 This template defines what data you will receive
 
-as well a how to display that data
-
-___
-
-![GraphQL Example](./04-articletemplate.png)
+as well as how to display that data
 
 ___
 

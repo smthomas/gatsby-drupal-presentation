@@ -36,6 +36,8 @@ ___
 
 It's difficult to work with these more complex data structures
 
+(But it is possible)
+
 ___
 
 # Hosting is... different

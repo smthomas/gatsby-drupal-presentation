@@ -34,3 +34,31 @@ ___
 
 ![Tech Stack](./06-techstack.png)
 
+___
+
+# But that content editing experience is...
+
+## ...less than ideal
+
+___
+
+## Introducing Gatsby Drupal Live Preview
+
+Time for another demo, but this one is pretty!
+
+___
+
+Note: I can't take any of the design credit
+___
+
+## What you need to test it out
+
+https://www.youtube.com/watch?v=H72PY3wNMcI
+
+___
+
+## Future Roadmap
+
+Keystroke preview
+
+Content moderation

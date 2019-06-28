@@ -5,6 +5,7 @@
   --text: black;
   --base: 1.5rem;
   --red: #fb251b;
+  --green: #00BC2F;
 }
 
 @media (max-width: 600px) {
@@ -66,17 +67,15 @@ html {
   width: 50%;
   padding-top: 2rem;
 }
-/*
-a {
-  color: var(--text);
 
-  text-decoration-skip-ink: auto;
+a {
+  color: var(--green);
 }
-*/
+
 blockquote {
   width: 60vw;
   margin: 0 auto;
-  border-color: var(--red);
+  border-color: var(--green);
 }
 
 @media (max-width: 900px) {
@@ -180,7 +179,7 @@ header a:hover {
 
 header img {
   float: left;
-  margin: 0 1rem 0 0;
+  margin: 0 0.5rem 0 0;
 }
 
 footer {

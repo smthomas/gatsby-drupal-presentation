@@ -10,7 +10,7 @@ ___
 
 # Contact Me
 
-<a href="">shane@codekarate.com</a>
+<a href="">shane@thirdandgrove.com</a>
 
 @smthomas3 on Twitter
 
